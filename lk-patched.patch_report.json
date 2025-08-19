@@ -1,0 +1,24 @@
+{
+    "timestamp": "20250819_163522",
+    "image": "lk.img",
+    "total_patches": 6,
+    "applied_patches": 0,
+    "skipped_patches": 6,
+    "dry_run": false,
+    "results": {
+        "fastboot": {
+            "2de9f04fadf5ac5d": false,
+            "f0b5adf5925d": false
+        },
+        "dm_verity": {
+            "30b583b002ab0022": false
+        },
+        "orange_state": {
+            "08b50a4b7b441b681b68022b": false,
+            "08b50e4b7b441b681b68022b": false
+        },
+        "red_state": {
+            "f0b5002489b0": false
+        }
+    }
+}

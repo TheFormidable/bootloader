@@ -1,0 +1,65 @@
+lk:
+Partition Name  : lk
+Data Size       : 990320 bytes
+Addressing Mode : -1
+Memory Address  : 0xffffffff
+Header Size     : 512 bytes
+Header Version  : 1
+Image Type      : 0x00000000
+Image List End  : False
+Alignment       : 16 bytes
+Data Size       : 0 bytes
+Memory Address  : 0x00000000
+
+bl2_ext:
+Partition Name  : bl2_ext
+Data Size       : 950384 bytes
+Addressing Mode : -1
+Memory Address  : 0xffffffff
+Header Size     : 512 bytes
+Header Version  : 1
+Image Type      : 0x00000000
+Image List End  : False
+Alignment       : 16 bytes
+Data Size       : 0 bytes
+Memory Address  : 0x00000000
+
+aee:
+Partition Name  : aee
+Data Size       : 948736 bytes
+Addressing Mode : -1
+Memory Address  : 0xffffffff
+Header Size     : 512 bytes
+Header Version  : 1
+Image Type      : 0x00000000
+Image List End  : False
+Alignment       : 16 bytes
+Data Size       : 0 bytes
+Memory Address  : 0x00000000
+
+lk_main_dtb:
+Partition Name  : lk_main_dtb
+Data Size       : 395981 bytes
+Addressing Mode : -1
+Memory Address  : 0xffffffff
+Header Size     : 512 bytes
+Header Version  : 1
+Image Type      : 0x00000000
+Image List End  : False
+Alignment       : 16 bytes
+Data Size       : 0 bytes
+Memory Address  : 0x00000000
+
+lk_dtbo:
+Partition Name  : lk_dtbo
+Data Size       : 85372 bytes
+Addressing Mode : -1
+Memory Address  : 0xffffffff
+Header Size     : 512 bytes
+Header Version  : 1
+Image Type      : 0x00000000
+Image List End  : False
+Alignment       : 16 bytes
+Data Size       : 0 bytes
+Memory Address  : 0x00000000
+
