@@ -52,4 +52,19 @@ Memory Address  : 0x00000000
 (lkpatcher-env) ike@ike-X99E:~/Descargas/fenrir-main/bootloader$ ls -la lk_lk.bin
 -rw-rw-r-- 1 ike ike 990320 ago 19 16:16 lk_lk.bin
 (lkpatcher-env) ike@ike-X99E:~/Descargas/fenrir-main/bootloader$
-
+te
+(lkpatcher-env) ike@ike-X99E:~/Descargas/fenrir-main/bootloader$ python3 -m lkpatcher lk.img
+[INFO] MediaTek bootloader (LK) patcher - version: 4.0.0 by R0rt1z2
+[INFO] Successfully loaded 6 patches in 4 categories
+[INFO] Loaded image from lk.img with 5 partitions
+[INFO] Starting patching process with 4 categories
+[INFO] Processing category: fastboot (2 patches)
+[INFO] Processing category: dm_verity (1 patches)
+[INFO] Processing category: orange_state (2 patches)
+[INFO] Processing category: red_state (1 patches)
+[INFO] Patching summary: 0/6 patches applied, 6 skipped
+[INFO] Dumped partition info to lk.img.debug.txt for debugging
+[WARNING] No patches were applied, but continuing due to allow_incomplete=True
+[INFO] Saved patched image to lk-patched.img
+[INFO] Patched image saved to lk-patched.img
+(lkpatcher-env) ike@ike-X99E:~/Descargas/fenrir-main/bootloader$ 
