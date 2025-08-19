@@ -17,3 +17,6 @@ Memory Address  : 0x00000000
 ========================================
 [INFO] Successfully dumped partition lk to lk_lk.bin
 (lkpatcher-env) ike@ike-X99E:~/Descargas/fenrir-main/bootloader$ 
+(lkpatcher-env) ike@ike-X99E:~/Descargas/fenrir-main/bootloader$ ls -la lk_lk.bin
+-rw-rw-r-- 1 ike ike 990320 ago 19 16:16 lk_lk.bin
+(lkpatcher-env) ike@ike-X99E:~/Descargas/fenrir-main/bootloader$ 
