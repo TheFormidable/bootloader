@@ -68,3 +68,33 @@ te
 [INFO] Saved patched image to lk-patched.img
 [INFO] Patched image saved to lk-patched.img
 (lkpatcher-env) ike@ike-X99E:~/Descargas/fenrir-main/bootloader$ 
+---
+MediaTekLittleKernel.py> Running...
+Creating enum lk_init_flags (4 bytes)...
+Creating enum lk_init_level (4 bytes)...
+Creating struct app_descriptor (20 bytes)...
+Failed to find function: entrypoint
+Failed to find function: arm64_elX_init
+Failed to find function: lk_main
+Applied signature to 0x3e867198: dprintf
+Applied signature to 0x3e83a2d8: video_printf
+Failed to find function: bootstrap2
+Failed to find function: lk_init_level
+Failed to find function: arch_init
+Failed to find function: platform_init
+Failed to find function: target_init
+Failed to find function: apps_init
+Failed to find function: show_warning
+Applied signature to 0x3e852558: show_dm_verity_error
+Applied signature to 0x3e810f8c: mt_boot_entry
+Applied signature to 0x3e807ac4: notify_enter_fastboot
+Applied signature to 0x3e80743c: fastboot_exit
+Applied signature to 0x3e807af8: fastboot_entry
+Applied signature to 0x3e80731c: fastboot_info
+Failed to find function: fastboot_register
+Failed to find function: fastboot_publish
+Applied signature to 0x3e809cac: register_flash_commands
+Applied signature to 0x3e810ae0: boot_linux_from_storage
+Function discovery complete: 10/22 functions found
+No fastboot_register found, skipping command discovery
+MediaTekLittleKernel.py> Finished!
